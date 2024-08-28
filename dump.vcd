@@ -1,0 +1,174 @@
+$date
+Wed Aug 28 03:28:28 2024
+$end
+$version
+Riviera-PRO Version 2023.04.112.8911
+$end
+$timescale
+1 ns
+$end
+
+$scope module jfsmMealyWithOverlapTb $end
+$var wire 1 ! dataout $end
+$var reg 1 " clock $end
+$var reg 1 # reset $end
+$var reg 1 $ datain $end
+
+$scope module jfsmM $end
+$var wire 1 % clock $end
+$var wire 1 & reset $end
+$var wire 1 ' datain $end
+$var reg 1 ( dataout $end
+$var reg 3 ) cs [2:0] $end
+$var reg 3 * ns [2:0] $end
+$var parameter 3 + a [2:0] $end
+$var parameter 3 , b [2:0] $end
+$var parameter 3 - c [2:0] $end
+$var parameter 3 . d [2:0] $end
+$var parameter 3 / e [2:0] $end
+$var parameter 3 0 f [2:0] $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+0!
+1"
+1#
+0$
+1%
+1&
+0'
+0(
+b0 )
+b0 *
+b0 +
+b1 ,
+b10 -
+b11 .
+b100 /
+b101 0
+$end
+#5
+0"
+0%
+#10
+0#
+1"
+1%
+0&
+#15
+0"
+0%
+#20
+1$
+1"
+1%
+1'
+b1 *
+#25
+0"
+0%
+#30
+1"
+1%
+b1 )
+b10 *
+#35
+0"
+0%
+#40
+1"
+1%
+b10 )
+b11 *
+#45
+0"
+0%
+#50
+0$
+1"
+1%
+0'
+b11 )
+b0 *
+b100 *
+#55
+0"
+0%
+#60
+1$
+1"
+1%
+1'
+b100 )
+b11 *
+b1 *
+1(
+1!
+#65
+0"
+0%
+#70
+1"
+1%
+b1 )
+b10 *
+0(
+0!
+#75
+0"
+0%
+#80
+1"
+1%
+b10 )
+b11 *
+#85
+0"
+0%
+#90
+0$
+1"
+1%
+0'
+b11 )
+b0 *
+b100 *
+#95
+0"
+0%
+#100
+1$
+1"
+1%
+1'
+b100 )
+b11 *
+b1 *
+1(
+1!
+#105
+0"
+0%
+#110
+0$
+1"
+1%
+0'
+b1 )
+b0 *
+0(
+0!
+b1 *
+#115
+0"
+0%
+#120
+1"
+1%
+#125
+0"
+0%
+#130
